@@ -1,2 +1,2 @@
 # rails-api-with-jwt-auth
-Rails API Example with JWT Authentication and MongoDB
+Rails API Example with Json Web Token (JWT) and MongoDB.
