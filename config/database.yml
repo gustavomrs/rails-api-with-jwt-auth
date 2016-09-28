@@ -1,0 +1,27 @@
+base: &base
+  adapter: postgresql
+  encoding: unicode
+  pool: 25
+  reconnect: false
+  port: 5432
+  host: localhost
+  username: postgres
+  password: postgres
+  database: payments_api_development
+  template: template0
+  min_messages: WARNING
+
+development:
+  <<: *base
+
+test:
+  <<: *base
+
+staging:
+  <<: *base
+
+demo:
+  <<: *base
+
+production:
+  <<: *base

@@ -1,0 +1,2 @@
+class PaymentPg < ApplicationRecord
+end
